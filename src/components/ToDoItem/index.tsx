@@ -111,6 +111,7 @@ function ToDoItem(props:IToDoItem) {
             {updateform && <ItemForm 
                 handleClose={() => setUpdateForm(false)}
                 clickOK={saveUpdateForm}
+                header={`You are going to update "${props.todoItem.title}"`}
                 title={props.todoItem.title}
                 description={props.todoItem.description}
                 status={props.todoItem.status}

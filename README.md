@@ -48,7 +48,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Additional information and Future Improvements
 
 - To be able to use drag and drop events on mobile or desktop. You should start the page on the relevant environment. This is required because of the package I have used.(react-dnd)
-- There is no "ordering" ability currently. This can be added as a future improvement. Items are now listed based on updatedAt by DESC. My guess, this can be completed within 2 more days.
+- There is no "ordering" ability currently. This can be added as a future improvement. Items are now listed based on updatedAt by DESC.
 - There is no pagination. This can be controversial since this is a to-do app and it might not be expected too many items to be on the screen. There are a lot of alternatives to keep the items under a number like removing items from db if they are old enough. Yet, pagination can be implemented by adding a button at the bottom of each column. Clicking on it will load items from the relevant status. This is more suitable to the current design.
 - I think it is not required currently but language support might be added with i18n
 - Of course a login system can be added as a future improvement

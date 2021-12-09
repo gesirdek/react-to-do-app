@@ -5,6 +5,7 @@ interface IFormItem {
     handleClose(): void,
     clickOK(event: any): void,
     title?: string,
+    header?: string,
     description?: string,
     status: string,
     open: boolean
@@ -20,7 +21,7 @@ function ItemForm(props:IFormItem) {
 
     return (
         <Dialog open={props.open} onClose={props.handleClose}>
-            <DialogTitle>{ `You are going to update "${props.title}"` }</DialogTitle>
+            <DialogTitle>{ props.header || props.title }</DialogTitle>
                 <DialogContent>
                     <TextField
                         autoFocus

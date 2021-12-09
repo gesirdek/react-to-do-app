@@ -106,6 +106,7 @@ function ListContainer(props:IListContainer) {
             </Card>
             {addForm && <ItemForm 
                 handleClose={() => setAddForm(false)}
+                header={'Please enter your task'}
                 clickOK={saveForm}
                 status={props.status}
                 open={addForm}
