@@ -1,0 +1,22 @@
+.top-space {
+    margin-top: 15px;
+}
+
+.icon {
+    font-size: .9em;
+    margin-top: -2px;
+    
+    &-delete {
+        color:rgba(196, 39, 39, 0.753);
+    }
+}
+.icon-info {
+    color:rgb(27, 101, 197);
+}
+
+.action-container {
+    display: flex;
+    justify-content: right;
+    background-color: rgb(235, 232, 232);
+}
+

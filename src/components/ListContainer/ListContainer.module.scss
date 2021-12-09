@@ -1,0 +1,38 @@
+.list-container {
+    height: 100vh;
+}
+
+.list-container-header {
+    &-open {
+        background-color: rgb(0, 0, 0);
+        color:white;
+    }
+
+    &-inprogress {
+        background-color: rgb(20, 106, 219);
+        color:white;
+    }
+
+    &-done {
+        background-color: rgb(16, 146, 96);
+        color:white;
+    }
+}
+
+.actions-container { 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-item-button {
+    color:white;
+}
+
+.column-title {
+    margin-left: 0.5em;
+}
+
+.load-more {
+    margin:0 auto;
+}
