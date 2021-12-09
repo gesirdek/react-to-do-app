@@ -100,6 +100,7 @@ function ListContainer(props:IListContainer) {
                 <CardContent
                     ref={drop}
                     color="blue"
+                    className={styles["card-content"]}
                 >
                     { list?.results.map((item: TodoItemModel) => <ToDoItem key={ item.id } todoItem={ item } /> ) }
                 </CardContent>
